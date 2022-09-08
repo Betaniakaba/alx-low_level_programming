@@ -1,11 +1,11 @@
 # include <stdio.h>
  
 /**
- * main - print using the put function
+ * main - print in the puts function
  *
  * Description: use the main function
  * a C program that prints "Programming is like building a multilingual puzzle"
- * Return: 0
+ * Return: 0 (success)
  */
 int main (void)
 {
