@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print size
+ * main - print sizes
  *
  * Return: 0
  */
@@ -15,6 +15,6 @@ printf("Size of a char: %ld byte(s)\n", (unsigned long)sizeof(c));
 printf("Size of a int: %ld byte(s)\n", (unsigned long)sizeof(i));
 printf("Size of a long int: %ld byte(s)\n", (unsigned long)sizeof(l));
 printf("Size of a long long int: %ld byte(s)\n", (unsigned long)sizeof(d));
-printf("Size of a float: %ld byte(s)\n", (unsigned long)sizeof(f));
+printf("Size of a float: %ld byte(s)\n", (unsigned long)sizeof(f))i;
 return (0);
 }
