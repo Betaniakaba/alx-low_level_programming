@@ -18,7 +18,7 @@ while (b <= 'z')
 
 putchar(b);
 
-q++;
+b++;
 }
 
 putchar('\n');
