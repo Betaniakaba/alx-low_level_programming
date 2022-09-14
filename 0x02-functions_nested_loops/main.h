@@ -12,3 +12,4 @@ void print_to_98(int n);
 void print_times_table(int n);
 char getchar(void);
 char *gets(char *str,unsigned char len);
+int _putchar(char);
