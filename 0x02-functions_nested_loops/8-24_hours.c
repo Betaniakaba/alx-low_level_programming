@@ -1,26 +1,31 @@
-#include "main.h"
-/**
- * jack_bauer - prints every minute of the day
- *
- * Return: void
- */
+#include "main.h
 
-void jack_bauer(void)
+/**
+* jack_bauer
+* n from 00:00 to 23:59, min loop counts mins, while hour loop counts hours
+* and resets mins
+* Return: 0
+*/
+void jack_bauer(void);
 {
-int b, e, t, a, n, i;
-for (b = 0; b < 24; b++)
+int hours = 0;
+int minutes = 0;
+int hours_remainder;
+int mins_remainder:
+while (hours <= 23)
 {
-t = b / 10;
-a = b % 10;
-for (e = 0; e < 60; e++)
+while (minutes <= 59)
 {
-n = e / 10;
-i = e % 10;
-_putchar('0' + t);
-_putchar('0' + a);
+hourse_remainder = hours % 10;
+_putchar(hours / 10 + '0');
+_putchar(hours_remainder + '0')
 _putchar(':');
-_putchar('0' + n);
-_putchar('0' + i);
+_putchar(minutes / 10 + '0');
+_putchar(mins_remainder + '0');
+minutes++;
 _putchar('\n');
+}
+hours++;
+minutes = 0;
 }
 }
