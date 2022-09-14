@@ -5,7 +5,7 @@
 * 
 * Return: Value of the last digit
 */
-int print_last_digit(int e);
+int print_last_digit(int e)
 {
 int b = e % 10;
 if (b < 0)
