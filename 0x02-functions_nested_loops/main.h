@@ -10,7 +10,5 @@ void times_table(void);
 int add(int, int);
 void print_to_98(int n);
 void print_times_table(int n);
-char getchar(void);
-char *gets(char *str,unsigned char len);
 int _putchar(char);
 void num(int r, int n);
