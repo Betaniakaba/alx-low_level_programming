@@ -15,9 +15,9 @@ while (hours <= 23)
 {
 while (minutes <= 59)
 {
-hourse_remainder = hours % 10;
+hours_remainder = hours % 10;
 _putchar(hours / 10 + '0');
-_putchar(hours_remainder + '0')
+_putchar(hours_remainder + '0');
 _putchar(':');
 _putchar(minutes / 10 + '0');
 _putchar(mins_remainder + '0');
