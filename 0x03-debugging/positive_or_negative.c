@@ -1,29 +1,40 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+
 /**
-* main - Entry point
-* code description
-* Return: Always 0 (Success)
-*/
-void positive_or_negative(int i)
+ *positive_or_negative - prints whether n is positive or negative
+ *@n: int
+ *Return: 0
+ */
+
+void positive_or_negative(int n)
 {
-srand(time(0));
-i = rand() - RAND_MAX / 2;
-if (i > 0)
+if (n > 0)
+
 {
-printf("%i is positive\n", i);
+
+printf("%d is positive\n", n);
+
 }
-else if (i == 0)
+
+else if (n < 0)
+
 {
-printf("%i is zero\n", i);
+
+printf("%d is negative\n", n);
+
 }
+
 else
+
 {
-printf("%i is negative\n", i);
+
+printf("%d is zero\n", n);
+
 }
+
 return;
+
 }
