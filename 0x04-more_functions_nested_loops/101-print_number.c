@@ -1,10 +1,9 @@
 #include "main.h"
 
-
 /*
  * print_number -  printing an integer
- * @n: n -  Variable
- * Return: Always 0.
+ * @n: integer in question
+ * Return: Always 0
  */
 
 void print_number(int n)
@@ -13,23 +12,15 @@ void print_number(int n)
 	int m, b;
 
 	b = 10;
-
 	if (n < 10 && n >= 0)
 	{
 		_putchar(n + '0');
-
 	}
-
 	else if (n > -10 && n < 0)
-
 	{
-
 		n = n - 2 * n;
-
 		_putchar('-');
-
 		_putchar(n + '0');
-
 	}
 	else
 	{
@@ -49,8 +40,8 @@ void print_number(int n)
 		z = z % b;
 		_putchar (m + '0');
 		b = b / 10;
-	}
-	}
+}
+}
 }
 
 
