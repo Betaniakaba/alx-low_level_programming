@@ -36,7 +36,7 @@ return (-1);
 
 /**
  * find_sign - determine a negative integer
- * s: integer
+ * @s: integer
  * Return: integer 1 or -1
  */
 int find_sign(char *s)
@@ -78,7 +78,7 @@ int _atoi(char *s)
 	}
 	i = 1;
 	while (i < digits_to_print)
-	{	
+	{
 		t *= 10;
 		i++;
 	}
