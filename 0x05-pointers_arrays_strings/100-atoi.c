@@ -31,7 +31,7 @@ int idx_num_starts(char *s)
 		if (s[i] >= '0' && s[i] <= '9')
 			return (i);
 	}
-	return (-1); 
+return (-1);
 }
 
 /**
@@ -67,22 +67,22 @@ int _atoi(char *s)
 	unsigned int num = 0;
 	int digit = (idx_num_starts(s));
 
-	if (idx_digit_starts < 0) 
+	if (idx_digit_starts < 0)
 		return (0);
 	sign = find_sign(s);
 	while ((s[idx_digit_starts] >= '0' && s[idx_digit_starts] <= '9')
-			&& (idx_digit_starts <= _strlen(s))) 
+		&& (idx_digit_starts <= _strlen(s)))
 	{
 		digits_to_print += 1;
 		idx_digit_starts++;
 	}
 	i = 1;
-	while (i < digits_to_print) 
-	{
+	while (i < digits_to_print)
+	{	
 		t *= 10;
 		i++;
 	}
-	for (i = digit; i < (digit + digits_to_print); i++) 
+	for (i = digit; i < (digit + digits_to_print); i++)
 	{
 		num += (s[i] - '0') * t;
 		t /= 10;
