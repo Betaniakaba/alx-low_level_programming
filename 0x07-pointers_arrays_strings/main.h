@@ -8,5 +8,6 @@ char *_strchr(char *s, char c);
 char *_strstr(char *haystack, char *needle);
 int _putchar(int a);
 void print_chessboard(char (*a)[8]);
+void print_diagsums(int *a, int size);
 
 #endif
