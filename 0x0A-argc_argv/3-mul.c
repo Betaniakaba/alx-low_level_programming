@@ -10,7 +10,7 @@
 int main(int argc, char *argv[])
 {
 	/* if the argument is different from two */
-	if (argc != 2)
+	if (argc != 3)
 /* print error to prompt the user for a different input */
 	{
 		printf("Error\n");
