@@ -36,7 +36,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 			free(temp_val);
 			return (1);
 		}
-		temp = temp->next;	
+		temp = temp->next;
 	}
 
 	/* If no collision, insert node */
